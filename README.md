@@ -1,1 +1,3 @@
 # GettingAndCleaningDataCourseProject
+
+This project demonstrates the student's ability to retrieve and clean data. There is a single script which loads the necessary labels and raw data. First, the labels are applied to the raw activities and features for the test set. Once labeled, the activities and features are combined. The process is repeated on the training set and the two well-labeled sets are combined. The relevant data (mean and standard deviation) are then extracted. The data is then grouped by subject and activity while a mean is applied to each extracted variable from the feature set. Lastly, the data set is sorted and labeled clearly.
